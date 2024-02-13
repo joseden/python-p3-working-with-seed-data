@@ -84,6 +84,7 @@ a session and `import` relevant classes. Run `debug.py` from the `lib/`
 directory and enter the following into the `ipdb` shell:
 
 ```console
+
 botw = Game(title="Breath of the Wild", platform="Switch", genre="Adventure", price=60)
 session.add(botw)
 session.commit()
@@ -96,7 +97,8 @@ ffvii = Game(title="Final Fantasy VII", platform="Playstation", genre="RPG", pri
 mk8 = Game(title="Mario Kart 8", platform="Switch", genre="Racing", price=50)
 session.bulk_save_objects([ffvii, mk8])
 session.commit()
-```
+
+``` 
 
 <details>
   <summary>
